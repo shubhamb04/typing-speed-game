@@ -1,0 +1,46 @@
+html,
+body {
+  background: black;
+  color: #00b800;
+  margin: 0;
+  padding: 0;
+  padding-top: 10px;
+  font-family: "Press Start 2P", cursive;
+  text-align: center;
+  font-weight: 400;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  border: none;
+  background: #00b800;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+button:disabled {
+  background-color: darkgreen;
+}
+
+h1 {
+  font-size: 20px;
+  text-align: center;
+}
+
+textarea {
+  border: 3px solid black;
+  width: 90%;
+  margin: 0 auto;
+  outline: none;
+  height: 200px;
+  background: #00b800;
+  padding: 10px;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+textarea:disabled {
+  background-color: darkgreen;
+}
